@@ -1,4 +1,4 @@
-# Paper CSS for happy printing
+# CSS for happy printing
 
 [![CDNJS](https://img.shields.io/cdnjs/v/paper-css.svg)](https://cdnjs.com/libraries/paper-css)
 
