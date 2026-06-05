@@ -46,4 +46,10 @@ body.legal.landscape  .sheet { width: 357mm; height: 215mm }
   body.letter, body.legal    { width: 216mm }
   body.letter.landscape      { width: 280mm }
   body.legal.landscape       { width: 357mm }
+
+  /** Fix for extra empty page when printing last sheet **/
+  .sheet:last-of-type {
+     page-break-after: avoid !important;
+     break-after: avoid !important;
+  }
 }
